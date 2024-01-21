@@ -3,7 +3,6 @@ let stroke2 = prompt("Now choose a color for the his scarf! (Enter a basic color
 function setup() {
     createCanvas(displayWidth, displayHeight);
     background("#53C4F5");
-    grid = loadImage("images/100px_grid.png");
 }
 
 function draw() {
