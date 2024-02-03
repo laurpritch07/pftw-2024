@@ -33,69 +33,54 @@ function createTile() {
     line(200, 0, 0, 200);
     background('#95a382');
     ellipse(100, 100, 100, 100) //CENTER
-    ellipse(0, 0, 200, 200) // TOP LEFT
-    ellipse(200, 0, 200, 200) // TOP RIGHT
-    ellipse(0, 200, 200, 200) // BOTTOM left
-    ellipse(200, 200, 200, 200) // BOTTOM RIGHT
+    arc(0, 0, 200, 200, 0, PI) // TOP LEFT
+    arc(200, 200, 200, 200, 90, PI/2) // BOTTOM RIGHT
+    arc(200, 0, 200, 200, 0, PI) // TOP RIGHT
+    arc(0, 200, 200, 200, 90, PI/2) // BOTTOM LEFT
 
-
-    noStroke();
-    fill('#95a382');
-    circle(200, 100, 20);
-    circle(0, 100, 20);
-    circle(100, 0, 20);
-    circle(100, 200, 20);
 
     stroke('#95a382');
     strokeWeight(5);
-
-    noStroke();
-    fill('BLACK');
-    circle(200, 100, 10);
-    circle(0, 100, 10);
-    circle(100, 0, 10);
-    circle(100, 200, 10);
+    arc(0, 0, 200, 200, 0, PI) // TOP LEFT
+    arc(200, 200, 200, 200, 90, PI/2) // BOTTOM RIGHT
+    arc(200, 0, 200, 200, 0, PI) // TOP RIGHT
+    arc(0, 200, 200, 200, 90, PI/2) // BOTTOM LEFT
 
     stroke('#95a382');
-    noFill();
     strokeWeight(5);
-    ellipse(0, 0, 75, 75) // TOP LEFT
-    ellipse(200, 0, 75, 75) // TOP RIGHT
-    ellipse(0, 200, 75, 75) // BOTTOM left
-    ellipse(200, 200, 75, 75) // BOTTOM RIGHT
+    arc(0, 0, 180, 180, 0, PI) // TOP LEFT
+    arc(200, 200, 180, 180, 90, PI/2) // BOTTOM RIGHT
+    arc(200, 0, 180, 180, 0, PI) // TOP RIGHT
+    arc(0, 200, 180, 180, 90, PI/2) // BOTTOM LEFT
 
     stroke('#95a382');
-    noFill();
-    strokeWeight(2);
-    ellipse(0, 0, 100, 100) // TOP LEFT
-    ellipse(200, 0, 100, 100) // TOP RIGHT
-    ellipse(0, 200, 100, 100) // BOTTOM left
-    ellipse(200, 200, 100, 100) // BOTTOM RIGHT
+    strokeWeight(3);
+    arc(0, 0, 110, 110, 0, PI) // TOP LEFT
+    arc(200, 200, 110, 110, 90, PI/2) // BOTTOM RIGHT
+    arc(200, 0, 110, 110, 0, PI) // TOP RIGHT
+    arc(0, 200, 110, 110, 90, PI/2) // BOTTOM LEFT
 
     stroke('#95a382');
-    noFill();
-    strokeWeight(7);
-    ellipse(0, 0, 125, 125) // TOP LEFT
-    ellipse(200, 0, 125, 125) // TOP RIGHT
-    ellipse(0, 200, 125, 125) // BOTTOM left
-    ellipse(200, 200, 125, 125) // BOTTOM RIGHT
+    strokeWeight(3);
+    arc(0, 0, 100, 100, 0, PI) // TOP LEFT
+    arc(200, 200, 100, 100, 90, PI/2) // BOTTOM RIGHT
+    arc(200, 0, 100, 100, 0, PI) // TOP RIGHT
+    arc(0, 200, 100, 100, 90, PI/2) // BOTTOM LEFT
 
     stroke('#95a382');
-    noFill();
-    strokeWeight(2);
-    ellipse(0, 0, 150, 150) // TOP LEFT
-    ellipse(200, 0, 150, 150) // TOP RIGHT
-    ellipse(0, 200, 150, 150) // BOTTOM left
-    ellipse(200, 200, 150, 150) // BOTTOM RIGHT
+    strokeWeight(3);
+    arc(0, 0, 50, 50, 0, PI) // TOP LEFT
+    arc(200, 200, 50, 50, 90, PI/2) // BOTTOM RIGHT
+    arc(200, 0, 50, 50, 0, PI) // TOP RIGHT
+    arc(0, 200, 50, 50, 90, PI/2) // BOTTOM LEFT
 
     stroke('#95a382');
-    noFill();
-    strokeWeight(5);
-    ellipse(0, 0, 175, 175) // TOP LEFT
-    ellipse(200, 0, 175, 175) // TOP RIGHT
-    ellipse(0, 200, 175, 175) // BOTTOM left
-    ellipse(200, 200, 175, 175) // BOTTOM RIGHT
-    ellipse(100, 100, 75, 75) //CENTER
+    strokeWeight(3);
+    arc(0, 0, 40, 40, 0, PI) // TOP LEFT
+    arc(200, 200, 40, 40, 90, PI/2) // BOTTOM RIGHT
+    arc(200, 0, 40, 40, 0, PI) // TOP RIGHT
+    arc(0, 200, 40, 40, 90, PI/2) // BOTTOM LEFT
+
 }
 
 function draw() {
