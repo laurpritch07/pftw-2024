@@ -15,6 +15,9 @@ const gameState = {
     attempts: 0,
     waiting: false
 };
+const myImage = new Image(599, 128);
+myImage.src = "images/mia_memory-game-01.png";
+document.body.appendChild(myImage);
 
 // card faces
 let cardFaceArray = [];
@@ -66,12 +69,12 @@ function setup() {
 }
 
 function draw () {
-    background(0);
+    background('w');
     // if number of cards mattched = the number of total pairs then we retur a message
     if (gameState.numMatched === gameState.totalPairs) {
-        fill('yellow');
-        textSize(66);
-        text('you win!!!!', 400, 425);
+        fill('#c1ffff');
+        textSize(72);
+        text('you win!!!!', 800, 425);
         noLoop();
     }
     // indicate # of attempts
@@ -86,10 +89,10 @@ function draw () {
     noLoop();
     gameState.flippedCards.length = 0;
     gameState.waiting = false;
-    fill(255);
-    textSize(36);
-    text('attempts ' + gameState.attempts, 100, 500);
-    text('matches ' + gameState.numMatched, 100, 450);
+    fill('black');
+    textSize(24);
+    text('Attempts: ' + gameState.attempts, 890, 70);
+    text('Matches: ' + gameState.numMatched, 700, 70);
 
 }
 
