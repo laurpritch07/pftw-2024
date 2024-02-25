@@ -2,13 +2,18 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const happy = false;
-  const [count, setCount] = useState(0)
+  const llamaFacts = [
+    "llama poo produces little to no odor",
+    "llama fact 2",
+    "llama fact 3",
+    "llama fact 4",
+    "llama fact 5",
+  ]
 
   return (
     <>
       <div>
-        <h1>Hello world! I just made an app in react!</h1>
+        <h1>Llama facts!!</h1>
         {happy && (<div>I am Happy</div>)}
         {happy ? (<div>I am happy</div>) : (<div> I am SO happy</div>)}
       </div>
