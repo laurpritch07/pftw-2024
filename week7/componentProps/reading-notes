@@ -1,0 +1,29 @@
+Passing Props to a Component
+    React components use props to communicate with each other. Every parent component can pass some information to its child components by giving them props. 
+
+    You can think of props like “knobs” that you can adjust. They serve the same role as arguments serve for functions—in fact, props are the only argument to your component! React component functions accept a single argument, a props object:
+
+    Don’t miss the pair of { and } curlies inside of ( and ) when declaring props:
+
+    If you want to give a prop a default value to fall back on when no value is specified, you can do it with the destructuring by putting = and the default value right after the parameter:
+        function Avatar({ person, size = 100 }) {
+         // ...
+
+    Recap
+    - To pass props, add them to the JSX, just like you would with HTML attributes.
+    - To read props, use the function Avatar({ person, size }) destructuring syntax.
+    - You can specify a default value like size = 100, which is used for missing and undefined props.
+    - You can forward all props with <Avatar {...props} /> JSX spread syntax, but don’t overuse it!
+    - Nested JSX like <Card><Avatar /></Card> will appear as Card component’s children prop.
+    - Props are read-only snapshots in time: every render receives a new version of props.
+    - You can’t change props. When you need interactivity, you’ll need to set state.
+        }
+
+    Different Ways to Write CSS in React
+
+        A better approach, though, is to use objects:
+
+        First, create an object that contains styles for different elements.
+        Then add it to an element using the style attribute and then select the property to style.
+
+    Rendering Lists
