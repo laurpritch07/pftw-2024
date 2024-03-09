@@ -1,20 +1,31 @@
 import './App.css'
-import Camelid from './Camelid'
+import llama from "./assets/llama.jpg";
+import alpaca from "./assets/alpaca.jpg";
+import Camelid from './Camelid';
 
 function App() {
-  const camelidArray = [
-    {label: "Lamma", des: "llama fact" , image: "week7/exercise-1/src/images/360_F_565740155_jISgBIQ6KxAnJrU9BelT0monORTNarHm.jpg"},
-    {label: "Lamma", des: "llama fact" , image: "./images/alpaca.jpg"},
-  ]
-
 
   return (
     <>
-      <div> 
-        <Camelid camelidArray={camelidArray} />
+      <h1>Camelids</h1>
+      <div className='card'>
+        <h2>Llamas</h2>
+       <Camelid url={llama} />
+       <p>
+       Llamas are the camel’s hippie cousins. They belong to a group of animals called camelids that also includes alpacas. All camelids spit or stick out their tongue when they are annoyed.
+        </p>
+      </div>
+
+      <div className='card'>
+        <h2>Alpacas</h2>
+       <Camelid url={alpaca} />
+       <p>
+       Alpacas are the smallest members of the camel family, on average 3 feet high at the shoulder and 4-7 feet long
+        </p>
       </div>
     </>
   )
 }
 
 export default App
+

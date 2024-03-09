@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-export default function Camelid ({url}) {
+export default function Animal ({url}) {
     return (
         <>
         <img src={url} />
@@ -7,6 +7,6 @@ export default function Camelid ({url}) {
     )
 }
 
-Camelid.propTypes = {
+Animal.propTypes = {
     url: PropTypes.string.isRequired
 }
