@@ -3,9 +3,6 @@ export default function Animal ({url, messageFn}) {
     return (
         <>
         <img src={url} />
-        <button onClick={() => {
-            messageFn("Hi from animal")
-        }}>Say Hi</button>
         </>
     )
 }
