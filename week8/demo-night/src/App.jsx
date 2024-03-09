@@ -3,27 +3,38 @@ import './App.css'
 import llama from "./assets/llama.jpg";
 import alpaca from "./assets/alpaca.jpg";
 import Animal from './animal';
+import { func } from 'prop-types';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [pet, setPet] = useState(llama);
+  function handleClick(evt) {
+    evt.preventDefault();
+    const target = evt.target.id;
+      if(target === "llamaLink") {
+        setPet(llama)
+      }
+      if(target === "alpacaLink") {
+        setPet(alpaca)
+      }
+  }
+  function alertMessage(message) {
+    alert(message);
+  }
 
   return (
     <>
+      <h1>Camelids</h1>
       <div>
-       <Animal url={llama} />
+       <Animal url={pet} messageFn={alertMessage} />
       </div>
-      <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <a href="#" onClick={handleClick} id='llamaLink'>
+          llama
+        </a>
+        <a href="#" onClick={handleClick} id='alpacaLink'>
+          alpaca
+        </a>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }

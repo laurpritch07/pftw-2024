@@ -1,0 +1,46 @@
+.page {
+  margin: 32px;
+}
+
+h1, h2, th {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 6rem;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding-bottom: 72px;
+  margin-top: 0;
+  color: rgb(126, 126, 126);
+}
+.plant-table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.plant-table thead, .plant-table tr {
+  border-bottom: 1px solid black;
+}
+
+.plant-table td, .plant-table th {
+  border: 1px solid rgb(126, 126, 126);
+  text-align: center;
+}
+
+th {
+  color: black;
+  padding: 16px;
+  font-size: 1.125rem;
+  font-weight: bolder;
+}
+.plant-table img {
+  width: 225px;
+  padding: 16px;
+}
+
