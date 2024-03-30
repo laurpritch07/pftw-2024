@@ -1,0 +1,40 @@
+fieldset {
+    margin-bottom: 1em;
+    margin-right: 20px;
+    text-align: left;
+  }
+  
+  input[type=checkbox] {
+    margin-left: 30px;
+  }
+
+  input[type=text] {
+    border-radius: 4px ;
+    border-width: .5px;
+  }
+
+  label {
+    margin-right: 10px ;
+  }
+
+  legend {
+    font-size: 20px;
+    font-weight: bold;
+    color:olive;
+    text-align: left;
+  }
+
+button {
+    font-weight: 600;
+    color: black;
+    text-decoration: inherit;
+  }
+
+  button:hover {
+    border-color:  olive;
+  }
+  
+  label.required::before {
+    content: "* ";
+    color: #cd461c;
+  }
