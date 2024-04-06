@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
-import musicData from "../assets/music-list.json"
-import { Song } from "./Song"
+import musicData from "../assets/music-list.json";
+import { Song } from "./Song";
 export function Home () {
     return (
         <>

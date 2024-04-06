@@ -1,6 +1,4 @@
-/* eslint-disable react/prop-types */
-import { Link, useParams } from "react-router-dom";
-
+import {Link, useParams} from "react-router-dom";
 export function Song({data}) {
     const {slug} = useParams();
     console.log("slug", slug);

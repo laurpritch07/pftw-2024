@@ -1,11 +1,11 @@
-import {Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Home } from "./views/Home";
 import { Song } from "./views/Song";
 import './App.css'
-import musicData from "./assets/music-list.json"
+import musicData from "./assets/music-list.json";
+
 
 function App() {
-
 
   return (
     <>

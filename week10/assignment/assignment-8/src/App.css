@@ -1,0 +1,46 @@
+.collection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.page {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 32px;
+
+}
+p {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(128, 0, 70);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(128, 0, 70);
+}
+
+.details {
+  padding-bottom: 40px;
+}
+
+.detailImage img {
+  width: 100%;
+  padding-bottom: 20px;
+}
