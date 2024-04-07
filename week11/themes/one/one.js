@@ -13,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-    background(30);
+    background(300);
    
     c = map(mouseX, 0, width, 0, 360);
     sat = map(mouseY, 0, height, 20, 100);
