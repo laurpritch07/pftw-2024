@@ -28,9 +28,11 @@ function setup() {
 
     volSlider = createSlider (0, 1, 0.5, 0);
     volSlider.position(20, 100);
-    textSize(20);
+    textSize(18);
+
     fill(0);
     text('Volume', 20, 20);
+
 }
 
 function draw() {

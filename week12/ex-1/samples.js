@@ -22,6 +22,7 @@ function setup() {
     createCanvas(windowWidth, windowHeight);
     colorMode(HSB);
     song = loadSound("birds-singing.ogg", loaded);
+    amp = new p5.Amplitude();
     background(300);
 }
 
