@@ -1,0 +1,80 @@
+[
+    {
+        "plantName": "Sanguisorba Minor ‘Blackthorn'",
+        "slug": "sanguisorba-minor",
+        "commonName": "Sanguisorba",
+        "color": "Smoky-pink",
+        "height": "30cm up to 2m",
+        "hardiness": "Hardiness: USDA 4a-8b",
+        "bloom": "Bloom Time: Late Summer to Autumn",
+        "inGarden": false,
+        "wishList": true,
+        "image": "./Sanguisorba.webp",
+        "id": "1"
+    },
+    {
+        "plantName": "Symphyotrichum novi-belgii ‘Violetta’",
+        "slug": "symphyotrichum-novi-belgii",
+        "commonName": "Asters",
+        "color": "Purple",
+        "height": "1.2m",
+        "hardiness": "Hardiness: USDA 4a-8b",
+        "bloom": "Bloom Time: late summer",
+        "inGarden": true,
+        "wishList": false,
+        "image": "./asters.webp",
+        "id": "2"
+    },
+    {
+        "plantName": "Molinia caerulea subsp. arundinacea ‘Transparent’",
+        "slug": "molinia",
+        "commonName": "Tall moor grass",
+        "color": "Green",
+        "height": "1.8m",
+        "hardiness": "Hardiness: USDA 5a-8b",
+        "bloom": "Bloom Time: Early Summer to Late Fall",
+        "inGarden": true,
+        "wishList": false,
+        "image": "./tall-moor-grass.webp",
+        "id": "3"
+    },
+    {
+        "plantName": "Thalictrum rochebruneanum",
+        "slug": "thalictrum-rochebruneanum",
+        "commonName": "Meadow Rue",
+        "color": "Maroon",
+        "height": "1.5m",
+        "hardiness": "Hardiness: USDA 4a-10b",
+        "bloom": "Bloom Time: Late Summer",
+        "inGarden": false,
+        "wishList": true,
+        "image": "./meadow-rue.webp",
+        "id": "4"
+    },
+    {
+        "plantName": "Veronicastrum virginicum ‘Album’",
+        "slug": "veronicastrum-virginicum",
+        "commonName": "Culver's Root",
+        "color": "White",
+        "height": "1.2m",
+        "hardiness": "Hardiness: USDA 4a-9b",
+        "bloom": "Bloom Time: Mid Summer",
+        "inGarden": true,
+        "wishList": false,
+        "image": "./veronica.webp",
+        "id": "5"
+    },
+    {
+        "plantName": "Schizachyrium scoparium 'Standing Ovation'",
+        "slug": "schizachyrium-scoparium",
+        "commonName": "Little Bluestem",
+        "color": "White",
+        "height": "1.8m",
+        "hardiness": "Hardiness: USDA 3-9",
+        "bloom": "Bloom Time: Summer",
+        "inGarden": true,
+        "wishList": false,
+        "image": "./ovation.jpg",
+        "id": "6"
+    }
+]
