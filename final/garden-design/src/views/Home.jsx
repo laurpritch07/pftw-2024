@@ -9,7 +9,7 @@ export function Home() {
         initial={{opacity: 0}} 
         animate={{ opacity:1 }}
         transition={{ duration: 0.75, ease: "easeOut" }}
-        className="text-gray-900  w-full h-full bg-orange-100 lg:px-48 "
+        className="text-gray-900  w-full h-full white lg:px-48 "
         >
             <section>
           

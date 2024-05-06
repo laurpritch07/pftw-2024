@@ -14,7 +14,7 @@ export function Plant ({data}) {
                         initial={{opacity: 0}} 
                         animate={{ opacity:1 }}
                         transition={{ duration: 0.75, ease: "easeOut" }}
-                        className="text-gray-900 w-full h-full bg-orange-100 lg:px-48 "
+                        className="text-gray-900 w-full h-full bg-white lg:px-48 "
                         >
             <div className="text-center p-10 py-10">
                 <h1 className='text-4xl py-10 font-semibold'>{selectedPlant.plantName}</h1>
